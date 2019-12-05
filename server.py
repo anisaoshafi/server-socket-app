@@ -19,7 +19,7 @@ bst = BinarySearchTree()
 def run_scheduled():
     global t
     check_status()
-    t = threading.Timer(5, run_scheduled)
+    t = threading.Timer(10, run_scheduled)
     t.start()
 
 
