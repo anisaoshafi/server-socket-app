@@ -19,9 +19,9 @@ Command Line 1:
 
 Command Line 2: 
 > python client.py
-<br>
-> Enter an input, try 9 digit numbers, invalid inputs, terminate
 
+<Enter an input, try 9 digit numbers, invalid inputs, terminate>
+  
 <br>
 
 ### Requirements
