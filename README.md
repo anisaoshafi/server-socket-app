@@ -1,6 +1,9 @@
 # server-socket-app
 An application that opens a socket and restricts input to at most 5 concurrent clients
 
+#### BST.py is the implementation of a Binary Search Tree that is called to insert the numbers in the numbers.log with no duplicates
+#### 
+
 ### Requirements
 1. The Application must accept input from at most 5 concurrent clients on
 TCP/IP port 4000.
