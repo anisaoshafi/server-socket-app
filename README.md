@@ -1,7 +1,7 @@
 # server-socket-app
 An application that opens a socket and restricts input to at most 5 concurrent clients
 
-Meaning of the files:
+File description:
 #### BST.py
 Implementation of a Binary Search Tree that is called to insert the numbers in the numbers.log with no duplicates
 #### client_handler.py
@@ -19,6 +19,7 @@ Command Line 1:
 
 Command Line 2: 
 > python client.py
+<br>
 > Enter an input, try 9 digit numbers, invalid inputs, terminate
 
 <br>
