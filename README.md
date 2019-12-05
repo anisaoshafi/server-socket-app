@@ -4,7 +4,24 @@ An application that opens a socket and restricts input to at most 5 concurrent c
 Meaning of the files:
 #### BST.py
 Implementation of a Binary Search Tree that is called to insert the numbers in the numbers.log with no duplicates
-#### 
+#### client_handler.py
+Handles when one new client requests to connect to the server by opening new thread
+#### server.py
+Main program that receives clients, and updates on the numbers received
+#### client.py
+Call this multiple times (+ modify) to test the program
+
+<br>
+
+## To run the program:
+Command Line 1:
+> python server.py
+
+Command Line 2: 
+> python client.py
+> Enter an input, try 9 digit numbers, invalid inputs, terminate
+
+<br>
 
 ### Requirements
 1. The Application must accept input from at most 5 concurrent clients on
